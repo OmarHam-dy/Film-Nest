@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Film-Nest/static/css/main.07f04a23.css",
+    "main.js": "/Film-Nest/static/js/main.56e1e429.js",
+    "index.html": "/Film-Nest/index.html",
+    "main.07f04a23.css.map": "/Film-Nest/static/css/main.07f04a23.css.map",
+    "main.56e1e429.js.map": "/Film-Nest/static/js/main.56e1e429.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07f04a23.css",
+    "static/js/main.56e1e429.js"
+  ]
+}
