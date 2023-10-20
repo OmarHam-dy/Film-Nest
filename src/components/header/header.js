@@ -11,7 +11,7 @@ export default function MyNavbar() {
       <Navbar expand="lg" style={{ backgroundColor: "rgb(19 20 22)" }}>
         <Container>
           <Navbar.Brand href="#home">
-            <img src="..\images\logo-white.png" width={170} height={50} alt="Logo" />
+            <img src="https://drive.google.com/uc?export=view&id=1sbzF4_w9p89OGMHPvaYLX1p5yY-dbOFD" width={170} height={50} alt="Logo" />
           </Navbar.Brand>
 
           {/* Toggle button only visible on small screens */}
