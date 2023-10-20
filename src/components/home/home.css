@@ -2,6 +2,13 @@
     border: 1px solid #E57B5C;
     color: #E57B5C;
 }
+header div:first-child{
+    background-color: #222;
+}
+
+.intro-sentance{
+    margin: 50px 0 !important;
+}
 
 .homeTv,
 .homeMovie{
