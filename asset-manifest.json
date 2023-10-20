@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Film-Nest/static/css/main.07f04a23.css",
-    "main.js": "/Film-Nest/static/js/main.56e1e429.js",
+    "main.css": "/Film-Nest/static/css/main.80296483.css",
+    "main.js": "/Film-Nest/static/js/main.80b50b67.js",
     "index.html": "/Film-Nest/index.html",
-    "main.07f04a23.css.map": "/Film-Nest/static/css/main.07f04a23.css.map",
-    "main.56e1e429.js.map": "/Film-Nest/static/js/main.56e1e429.js.map"
+    "main.80296483.css.map": "/Film-Nest/static/css/main.80296483.css.map",
+    "main.80b50b67.js.map": "/Film-Nest/static/js/main.80b50b67.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f04a23.css",
-    "static/js/main.56e1e429.js"
+    "static/css/main.80296483.css",
+    "static/js/main.80b50b67.js"
   ]
 }
