@@ -28,7 +28,7 @@ export default function Home() {
           <div className='d-flex justify-content-center align-items-center h-100' style={{marginTop:'120px'}}>
             <div className='text-white'>
               <h1 className='mb-4'>WELCOME TO FILM NEST</h1>
-              <h5 className='mb-4' >Best free Movies &amp; TV Shows website !!</h5>
+              <h5 className='mb-4 intro-sentance' >Best free Movies &amp; TV Shows website !!</h5>
               <Link
                 className='m-2 homeMovie'
                 as='a'
