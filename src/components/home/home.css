@@ -2,3 +2,20 @@
     border: 1px solid #E57B5C;
     color: #E57B5C;
 }
+
+.homeTv,
+.homeMovie{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #f6f6f6;
+    border: solid 1px #f6f6f6;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.homeTv:hover,
+.homeMovie:hover{
+
+    background-color: #f6f6f6;
+    color: black;
+}

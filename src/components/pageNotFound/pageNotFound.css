@@ -1,0 +1,17 @@
+.not-found{
+    width: 100%;
+    height: calc(100vh - (76px + 176px));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    font-size: 3rem;
+}
+.not-found div{
+    width: 100%;
+    text-align: center;
+}
+.not-found  span{
+    color: #e67b5c;
+}

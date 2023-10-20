@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import "./home.css";
 
@@ -10,15 +9,15 @@ export default function Home() {
 //     backgroundSize: 'cover',
 //     backgroundPosition: 'center',
 //     height: '100vh', // Full viewport height
-//   };
+//   };https://i.pinimg.com/564x/cf/f9/93/cff99339fcb98208f632e6cfed9fe3f0.jpg
   return (
     <>
     <header >
       <div
         id='intro-example'
-        className='p-5 text-center bg-image'
+        className='p-5 text-center bg-image landing-img'
         style={{
-            backgroundImage: "url('https://i.pinimg.com/564x/cf/f9/93/cff99339fcb98208f632e6cfed9fe3f0.jpg')",
+            backgroundImage: "url('https://drive.google.com/uc?export=view&id=1z28FJBH_VBP-TpNr07r8cBW9Tal4mit9')",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover", // Make the background image cover the entire container
             backgroundPosition: "center center", // Center the background image
@@ -26,29 +25,29 @@ export default function Home() {
           }}
       >
         <div className='mask h-50 m-5' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
-          <div className='d-flex justify-content-center align-items-center h-100'>
+          <div className='d-flex justify-content-center align-items-center h-100' style={{marginTop:'120px'}}>
             <div className='text-white'>
               <h1 className='mb-4'>WELCOME TO FILM NEST</h1>
               <h5 className='mb-4' >Best free Movies &amp; TV Shows website !!</h5>
-              <Button
-                className='m-2 '
+              <Link
+                className='m-2 homeMovie'
                 as='a'
-                to="/movie"
+                to="/movie/0"
                 rel='nofollow'
                 variant='outline-light'
                 size='lg'
               >
                 Browse Movies
-              </Button>
-              <Button
-                className='m-2 '
+              </Link>
+              <Link
+                className='m-2 homeTv'
                 as='a'
-                to="/tv"
+                to="/tv/1"
                 variant='outline-light'
                 size='lg'
               >
                 Browse TV Shows
-              </Button>
+              </Link>
             </div>
           </div>
         </div>

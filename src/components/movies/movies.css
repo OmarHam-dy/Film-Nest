@@ -1,0 +1,239 @@
+html{
+    font-size: 16px;
+}
+/* {
+    #e67b5c
+    #eea089
+    #e67b5cad
+} */
+.movies{
+    background-color: #222;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.movies .container{
+    background-color: #111;
+}
+
+.movies .container .filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #111;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #eea089;
+    position: relative;
+}
+
+.movies .container .filters input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 2px;
+}
+.movies .container .filters .icon{
+    color: white;
+    width: 30px;
+    display: none;
+    cursor: pointer;
+}
+.movies .container .filters .icon span{
+    display: block;
+    height: 4px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.movies .container .filters .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movies .container .filters .btns .btn{
+    text-decoration: none;
+    border: solid 2px #e67b5c;
+    /* background-color: red; */
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: #f6f6f6;
+    height: 30px;
+    width: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+}
+.movies .container .filters .btns .btn:hover{
+    opacity: 0.8;
+}
+
+.movies .container .movies-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.movies .container .movies-list .box{
+    width: 22%;
+    border: solid 1px black;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .movies .container .movies-list .box{
+        width: 30%;
+    }
+    .movies .container .filters .btns{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        bottom: -300px;
+        right: 0px;
+        z-index: 1;
+        background-color: #e67b5c99;
+        width: 250px;
+        padding: 25px;
+        display: none;
+    }
+    .movies .container .filters .btns .btn{
+        border-color: transparent;
+        margin-top: 15px;
+        border-bottom-color: #eee;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        width: 85%;
+    }
+    .movies .container .filters .btns:hover{
+        display: flex;
+    }
+    .movies .container .filters .icon{
+        display: block;
+        position: relative;
+    }
+
+    .movies .container .filters .icon::before{
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 0;
+        bottom: -46px;
+        background-color: transparent;
+    }
+    .movies .container .filters .icon:hover + .btns {
+        display: flex;
+    }
+}
+
+@media (max-width: 450px) {
+    .movies .container .movies-list .box{
+        width: 80%;
+    }
+    .movies .container .movies-list{
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .movies .container .movies-list .box{
+        width: 18%;
+    }
+}
+
+.movies .container .movies-list .box:hover{
+    cursor: pointer;
+}
+.movies .container .movies-list .box .image{
+    position: relative;
+}
+
+.movies .container .movies-list .box .image::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgb(0, 0, 0, 60%);
+    display: none;
+}
+
+.movies .container .movies-list .box:hover .image::before{
+    display: block;
+}
+
+.movies .container .movies-list .box .image i{
+    position: absolute;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f6f6f6;
+    display: none;
+}
+.movies .container .movies-list .box .image i:hover{
+    opacity: 0.8;
+}
+.movies .container .movies-list .box:hover .image i{
+    display: block;
+}
+
+.movies .container .movies-list .box .image img{
+    width: 100%;
+    display: block;
+}
+
+/* .movies .container .movies-list .box .title{
+    font-size: 1rem;
+    margin: 20px 0;
+    padding: 0 5px;
+    height: 70px;
+    line-height: 1.6;
+} */
+
+.movies .container .page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.movies .container .page > *{
+    margin-left: 10px;
+    color: #f6f6f6;
+    cursor: pointer;
+}
+
+.movies .container .page > div{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: solid 3px #e67b5c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies .container .page > div:hover{
+    opacity: 0.8;
+}
+
+.movies .container .page > i{
+    font-size: 1.4rem;
+}
+
+.movies .container .page > i:hover{
+    opacity: 0.8;
+}

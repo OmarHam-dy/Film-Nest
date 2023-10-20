@@ -36,7 +36,7 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/movie">
+                  }} to="/movie/0">
               Movies
             </NavLink>
             <NavLink className="nav-link spaces button2" style={({ isActive }) => {
@@ -45,7 +45,7 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/tv">
+                  }} to="/movie/1">
               Tv shows
             </NavLink>
             <NavLink className="nav-link spaces button2" style={({ isActive }) => {
@@ -54,8 +54,8 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/about">
-              About us
+                  }} to="/favorites">
+              Favorite
             </NavLink>
             <NavLink className="nav-link spaces button2" style={({ isActive }) => {
                     return {
@@ -72,7 +72,7 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/signup">
+                  }} to="/join">
               Sign up
             </NavLink>
           </Nav>
@@ -123,7 +123,7 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/movie">
+                  }} to="/movie/0">
               Movies
             </NavLink>
             <NavLink className="nav-link spaces button2" style={({ isActive }) => {
@@ -132,7 +132,7 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/tv">
+                  }} to="/movie/1">
               Tv shows
             </NavLink>
             <NavLink className="nav-link spaces button2" style={({ isActive }) => {
@@ -141,8 +141,8 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/about">
-              About us
+                  }} to="/favorites">
+              Favorite
             </NavLink>
             <NavLink className="nav-link spaces button2" style={({ isActive }) => {
                     return {
@@ -150,7 +150,7 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/signup">
+                  }} to="/join">
               Log in
             </NavLink>
             <NavLink className="nav-link spaces signupbtn" style={({ isActive }) => {
@@ -159,7 +159,7 @@ export default function MyNavbar() {
                       borderRadius:isActive?'0.3rem':"",
                       color:isActive?'white':""
                     };
-                  }} to="/signup">
+                  }} to="/join">
               Sign up
             </NavLink>
           </Nav>

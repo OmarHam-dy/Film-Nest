@@ -1,0 +1,57 @@
+.bag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.bag .delete-icon{
+    color: #f6f6f6;
+    cursor: pointer;
+    font-size: 2rem;
+    visibility: hidden;
+    padding-bottom: 10px;
+}
+
+.bag .delete-icon:hover{
+    opacity: 0.8;
+    color: rgb(243, 113, 113);
+}
+.bag:hover .delete-icon{
+    visibility: visible;
+}
+.movies .container .movies-list .box.favo{
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .movies .container .movies-list .bag{
+        width: 47%;
+    }
+}
+@media (max-width: 450px) {
+    .movies .container .movies-list .bag{
+        width: 80%;
+    }
+}
+
+
+
+@media (min-width:768px ) and (max-width: 991px) {
+    .movies .container .movies-list .bag{
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) {
+    .movies .container .movies-list .bag{
+        width: 22%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .movies .container .movies-list .bag{
+        width: 18%;
+    }
+}
