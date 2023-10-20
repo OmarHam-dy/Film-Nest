@@ -57,15 +57,6 @@ export default function MyNavbar() {
                   }} to="/favorites">
               Favorite
             </NavLink>
-            <NavLink className="nav-link spaces button2" style={({ isActive }) => {
-                    return {
-                      backgroundColor: isActive ? "#0000004d" : "",
-                      borderRadius:isActive?'0.3rem':"",
-                      color:isActive?'white':""
-                    };
-                  }} to="/join">
-              Log in
-            </NavLink>
             <NavLink className="nav-link spaces signupbtn" style={({ isActive }) => {
                     return {
                       backgroundColor: isActive ? "#0000004d" : "",
@@ -73,7 +64,7 @@ export default function MyNavbar() {
                       color:isActive?'white':""
                     };
                   }} to="/join">
-              Sign up
+              Signup / Login
             </NavLink>
           </Nav>
         </Container>
