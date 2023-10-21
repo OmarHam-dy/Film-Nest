@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { deleteFromfavoriteList } from './../../store/actions'
 import './favorite.css';
 
@@ -10,7 +10,7 @@ function Favorite() {
     const dispatch = useDispatch();
     const IDs = [...favo].map((movie) => movie.id);
     const [change, setChange] = useState(false);
-    const { id, type } = useParams();
+    const { type } = useParams();
     
     const remove  = function (id){
         dispatch(deleteFromfavoriteList(id));
