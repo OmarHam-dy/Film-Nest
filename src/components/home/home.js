@@ -17,7 +17,7 @@ export default function Home() {
         id='intro-example'
         className='p-5 text-center bg-image landing-img'
         style={{
-            backgroundImage: "url('https://drive.google.com/uc?export=view&id=1z28FJBH_VBP-TpNr07r8cBW9Tal4mit9')",
+            backgroundImage: "url('./images/background.svg')",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover", // Make the background image cover the entire container
             backgroundPosition: "center center", // Center the background image

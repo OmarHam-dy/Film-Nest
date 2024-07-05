@@ -13,11 +13,11 @@
     visibility: hidden;
     padding-bottom: 10px;
 }
-
 .bag .delete-icon:hover{
     opacity: 0.8;
     color: rgb(243, 113, 113);
 }
+
 .bag:hover .delete-icon{
     visibility: visible;
 }

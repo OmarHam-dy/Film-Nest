@@ -170,7 +170,6 @@ html{
     background-color:rgb(0, 0, 0, 60%);
     display: none;
 }
-
 .movies .container .movies-list .box:hover .image::before{
     display: block;
 }
