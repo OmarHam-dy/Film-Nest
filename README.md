@@ -16,18 +16,32 @@
 ## Overview
 
 -Home
+<br>
 ![screenshot](https://raw.githubusercontent.com/OmarHam-dy/Film-Nest/main/screenshots/home.png)  
 <br>
+<br>
 -Movies
+<br>
 ![screenshot](https://raw.githubusercontent.com/OmarHam-dy/Film-Nest/main/screenshots/movie.png)  
 <br>
+<br>
 -TV Shows
+<br>
 ![screenshot](https://raw.githubusercontent.com/OmarHam-dy/Film-Nest/main/screenshots/TV.png)  
 <br>
+<br>
+-A movie details
+<br>
+![screenshot](https://raw.githubusercontent.com/OmarHam-dy/Film-Nest/main/screenshots/details.png)  
+<br>
+<br>
 -Favorite
+<br>
 ![screenshot](https://raw.githubusercontent.com/OmarHam-dy/Film-Nest/main/screenshots/favorite.png)  
 <br>
+<br>
 -Signup/Login
+<br>
 ![screenshot](https://raw.githubusercontent.com/OmarHam-dy/Film-Nest/main/screenshots/login.png)
 
 
